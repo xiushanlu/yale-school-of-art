@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/**Custom Fonts**/
+@font-face {
+  font-family: Bembo;
+  src: url(fonts/Bembo.otf);
+}
+
+@font-face {
+  font-family: Source Code Pro;
+  src: url(fonts/SourceCodePro-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Martel;
+  src: url(fonts/Martel-Regular.ttf);
+}
+
+/**Global styles**/
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: inherit;
+}
+
+h1 {
+  font-family: Bembo;
+}
+
+h3, nav {
+  font-family: Source Code Pro;
+  font-size: 2.8vw;
+}
+
+p {
+  font-family: Martel;
+  font-size: 1.3vw;
+  line-height: 208%;
+}
+
+/**Navigation Styles**/
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  z-index: 1;
+}
+
+nav img {
+  margin-left: 3.7%;
+  display: inline;
+  position: absolute;
+  width: 15.2%;
+}
+
+nav h1 {
+  color: #ffffcc;
+  display: inline;
+  font-size: 3.4vw;
+  margin-left: 23.4%;
+  float: left;
+}
+
+nav h3 {
+  display: inline;
+  color: #ffcc33;
+  font-size: 2.9vw;
+  float: left;
+  margin-left: 5%;
+}
+
+/**Main Content Styles**/
+.hero {
+  width: 100%;
+}
+
+.primary {
+  color: black;
+  position: absolute;
+  text-align: right;
+  right: 5%;
+  width: 66.9%;
+  margin-top: -54%;
+}
+
+.primary h1 {
+  font-size: 4.1vw;
+}
+
+.primary h3 {
+  font-size: 1.9vw;
+  margin-top: -1.3%;
+}
+
+/**Secondary Content Styles**/
+.secondary{
+  margin-left: 5%;
+  margin-top: -12%;
+  display: inline;
+  float: left;
+}
+
+.secondary h3{
+  color: #ffcc33;
+  margin-top: -83%;
+  text-align: center;
+  width: 100%;
+}
+
+.secondary1{
+  margin-top: -2.5%;
+  margin-bottom: 4%;
+  width: 40.7%;
+  text-align: right;
+  margin-left: 5%;
+}
+
+.secondary2{
+  text-align: left;
+  margin-left: 49%;
+  margin-top: -1%;
+  width: 39%;
+}
+
+.secondary3{
+  margin-top: 3%;
+  width: 43.7%;
+  text-align: right;
+  margin-left: 2%;
+}
+
+.buildings{
+  width: 90%;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+/**Degree section styles**/
+.doodles{
+  width: 100%;
+}
+
+.degrees h3{
+  color: #cc66ff;
+  margin-top: -84%;
+  text-align: center;
+}
+
+.degrees p{
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+}
+
+/**Lecture section styles**/
+.lecturesbg{
+  width: 100%;
+  margin-top: -5%;
+}
+
+.lectures img{
+  width: 56.9%;
+  margin-left: 21.55%;
+  margin-top: -77%;
+  position: absolute;
+}
+
+.lectures h3{
+  position: absolute;
+  margin-top: -83%;
+  text-align: center;
+  width: 100%;
+}
+
+.lectures p{
+  position: absolute;
+  color: black;
+  width: 46%;
+  margin-left: 27%;
+  text-align: center;
+  margin-top: -70%;
+}
+
+/**Footer styles**/
+footer{
+  background-color: #663366;
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+  margin-top: -5%;
+}
+
+footer h1{
+  font-size: 2.4vw;
+  display: inline;
+  float: left;
+  margin-left: 6.5%;
+  margin-bottom: 2%;
+  color: #ffffcc;
+}

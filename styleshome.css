@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+/**Custom Fonts**/
+@font-face {
+  font-family: Bembo;
+  src: url(fonts/Bembo.otf);
+}
+
+@font-face {
+  font-family: Source Code Pro;
+  src: url(fonts/SourceCodePro-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Martel;
+  src: url(fonts/Martel-Regular.ttf);
+}
+
+/**Global styles**/
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: inherit;
+}
+
+h1 {
+  font-family: Bembo;
+}
+
+h3, nav {
+  font-family: Source Code Pro;
+  font-size: 2.8vw;
+}
+
+p {
+  font-family: Martel;
+  font-size: 1.3vw;
+}
+
+/**Navigation Styles**/
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  z-index: 1;
+}
+
+nav img {
+  margin-left: 3.7%;
+  display: inline;
+  position: absolute;
+  width: 15.2%;
+}
+
+nav h1 {
+  color: #ffffcc;
+  display: inline;
+  font-size: 3.4vw;
+  margin-left: 23.4%;
+  float: left;
+}
+
+nav h3 {
+  display: inline;
+  color: #ffcc33;
+  font-size: 2.9vw;
+  float: left;
+  margin-left: 5%;
+}
+
+/**Main Content Styles**/
+.hero {
+  width: 100%;
+}
+
+.primary {
+  position: absolute;
+  text-align: right;
+  right: 5%;
+  width: 37.2%;
+  margin-top: -58%;
+}
+
+.primary h1 {
+  font-size: 4.1vw;
+}
+
+.primary h3 {
+  font-size: 1.9vw;
+}
+
+span {
+  color: #ffcc33;
+}
+
+/**Secondary Content Styles**/
+.secondary{
+  margin-left: 5%;
+  margin-top: -12%;
+  width: 38%;
+  display: inline;
+  float: left;
+}
+
+.secondary h3{
+  color: #cc99cc;
+}
+
+.secondary p{
+  margin-top: -5%;
+}
+
+.camera{
+  width: 57%;
+  margin-left: -5%;
+  margin-top: -15%;
+  display: inline-block;
+}
+
+/**Newsletters Styles**/
+.envelopes{
+  width: 86.7%;
+  margin: auto;
+  display: block;
+  margin-top: -38%;
+}
+
+.newslettercta h3{
+  color: #ffff66;
+}
+
+.newslettercta p{
+  color: white;
+  margin-top: -2%;
+}
+
+.newslettercta {
+  text-align: center;
+  margin-top: -49%;
+}
+
+.newsnewhaven {
+  width: 30.3%;
+  color: black;
+  margin-left: 13%;
+  margin-top: 18%;
+}
+
+.newsnewhaven p{
+  margin-top: -5%;
+}
+
+.newssoa {
+  width: 30.3%;
+  color: black;
+  margin-left: 57%;
+  margin-top: -15.4%;
+}
+
+.newssoa p{
+  margin-top: -5%;
+}
+
+/**Calendars Styles**/
+.calendars img{
+  width: 40.5%;
+  margin-left: 29.75%;
+  margin-top: 15%;
+  position: absolute;
+}
+
+.events{
+  width: 100%;
+  margin-top: 3%;
+}
+
+.calendars h1{
+  position: absolute;
+  text-align: center;
+  margin-top: 21%;
+  margin-left: 40.5%;
+  font-size: 4.7vw;
+}
+
+.calendars h3{
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 32%;
+  color: black;
+  width: 36%;
+}
+
+.calendars p{
+  position: absolute;
+  margin-top: 33%;
+  margin-left: 32%;
+  color: #663399;
+  width: 36%;
+}
+
+.publicd{
+  margin-top: 34% !important;
+}
+
+.soa {
+  margin-top: 37% !important;
+}
+
+.soad{
+  margin-top: 40.5% !important;
+}
+
+.comm{
+  margin-top: 46% !important;
+}
+
+.commd{
+  margin-top: 50% !important;
+}
+
+/**Footer styles**/
+footer{
+  background-color: #663366;
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+  margin-top: -5%;
+}
+
+footer h1{
+  font-size: 2.4vw;
+  display: inline;
+  float: left;
+  margin-left: 6.5%;
+  margin-bottom: 2%;
+  color: #ffffcc;
+}
